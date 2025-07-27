@@ -1,5 +1,11 @@
 {
   "permissions": {
     "allow": ["Read(**)"]
+  },
+  "env": {
+    "MCP_TIMEOUT": "120000",
+    "MCP_TOOL_TIMEOUT": "240000",
+    "BASH_DEFAULT_TIMEOUT_MS": "240000",
+    "MAX_MCP_OUTPUT_TOKENS": "50000"
   }
 }
