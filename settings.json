@@ -1,6 +1,15 @@
 {
   "permissions": {
-    "allow": ["Read(**)", "mcp__jai-chat-mcp"]
+    "allow": [
+      "Read(**)",
+      "mcp__jai-chat-mcp",
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run typecheck:*)",
+      "Bash(npm run test:*)",
+      "Bash(npm run build:*)"
+    ]
   },
   "env": {
     "MCP_TIMEOUT": "120000",
