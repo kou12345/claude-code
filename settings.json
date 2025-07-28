@@ -1,6 +1,6 @@
 {
   "permissions": {
-    "allow": ["Read(**)"]
+    "allow": ["Read(**)", "mcp__jai-chat-mcp"]
   },
   "env": {
     "MCP_TIMEOUT": "120000",
