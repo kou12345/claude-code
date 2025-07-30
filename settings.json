@@ -10,7 +10,8 @@
       "Bash(npm run test:*)",
       "Bash(npm run build:*)",
       "Bash(head:*)",
-      "Bash(cut:*)"
+      "Bash(cut:*)",
+      "Bash(grep:*)"
     ]
   },
   "env": {
