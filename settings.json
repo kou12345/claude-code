@@ -1,8 +1,15 @@
 {
+  "env": {
+    "MCP_TIMEOUT": "120000",
+    "MCP_TOOL_TIMEOUT": "240000",
+    "BASH_DEFAULT_TIMEOUT_MS": "240000",
+    "MAX_MCP_OUTPUT_TOKENS": "50000"
+  },
   "permissions": {
     "allow": [
       "Read(**)",
       "mcp__jai-chat-mcp",
+      "mcp__serena",
       "Bash(gh pr view:*)",
       "Bash(gh pr diff:*)",
       "Bash(npm run lint:*)",
@@ -14,10 +21,7 @@
       "Bash(grep:*)"
     ]
   },
-  "env": {
-    "MCP_TIMEOUT": "120000",
-    "MCP_TOOL_TIMEOUT": "240000",
-    "BASH_DEFAULT_TIMEOUT_MS": "240000",
-    "MAX_MCP_OUTPUT_TOKENS": "50000"
+  "feedbackSurveyState": {
+    "lastShownTime": 1753934237659
   }
 }
