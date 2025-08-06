@@ -24,6 +24,19 @@
       "Bash(grep:*)"
     ]
   },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "code -r --goto \"$(jq -r '.tool_input.file_path'):$(jq -r '.tool_input.start_line // 1')\""
+          }
+        ]
+      }
+    ]
+  },
   "feedbackSurveyState": {
     "lastShownTime": 1754059573754
   }
