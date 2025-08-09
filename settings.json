@@ -21,7 +21,8 @@
       "Bash(uv run:*)",
       "Bash(head:*)",
       "Bash(cut:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(find:*)"
     ]
   },
   "feedbackSurveyState": {
