@@ -15,9 +15,8 @@ process.stdin.on("end", async () => {
     const data = JSON.parse(input);
 
     // Extract values
-    const model = data.model?.display_name || "Unknown";
     const currentDir = path.basename(
-      data.workspace?.current_dir || data.cwd || "."
+      data.workspace?.current_dir || data.cwd || ".",
     );
     const sessionId = data.session_id;
 
@@ -50,7 +49,7 @@ process.stdin.on("end", async () => {
     // Calculate percentage
     const percentage = Math.min(
       100,
-      Math.round((totalTokens / COMPACTION_THRESHOLD) * 100)
+      Math.round((totalTokens / COMPACTION_THRESHOLD) * 100),
     );
 
     // Format token display
@@ -62,7 +61,7 @@ process.stdin.on("end", async () => {
     if (percentage >= 90) percentageColor = "\x1b[31m"; // Red
 
     // Build status line
-    const statusLine = `[${model}] 📁 ${currentDir} | 🪙 ${tokenDisplay} | ${percentageColor}${percentage}%\x1b[0m`;
+    const statusLine = `📁 ${currentDir} | 🪙 ${tokenDisplay} | ${percentageColor}${percentage}%\x1b[0m`;
 
     console.log(statusLine);
   } catch (error) {

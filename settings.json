@@ -23,7 +23,8 @@
       "Bash(cut:*)",
       "Bash(grep:*)",
       "Bash(find:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(md5:*)"
     ]
   },
   "feedbackSurveyState": {
