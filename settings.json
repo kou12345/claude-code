@@ -16,6 +16,7 @@
       "Bash(npm run typecheck:*)",
       "Bash(npm run test:*)",
       "Bash(npm test:*)",
+      "Bash(npx jest:*)",
       "Bash(npm run build:*)",
       "Bash(uv sync)",
       "Bash(uv run:*)",
