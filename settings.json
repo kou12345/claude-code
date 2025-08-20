@@ -25,14 +25,18 @@
       "Bash(grep:*)",
       "Bash(find:*)",
       "Bash(tree:*)",
-      "Bash(md5:*)"
+      "Bash(md5:*)",
+      "Bash(sed:*)",
+      "mcp__linear__list_comments",
+      "mcp__linear__get_issue"
     ]
-  },
-  "feedbackSurveyState": {
-    "lastShownTime": 1754059573754
   },
   "statusLine": {
     "type": "command",
     "command": "bun x ccusage statusline"
-  }
+  },
+  "feedbackSurveyState": {
+    "lastShownTime": 1754059573754
+  },
+  "model": "sonnet"
 }
