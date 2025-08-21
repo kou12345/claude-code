@@ -28,15 +28,16 @@
       "Bash(md5:*)",
       "Bash(sed:*)",
       "mcp__linear__list_comments",
-      "mcp__linear__get_issue"
+      "mcp__linear__get_issue",
+      "mcp__notion__fetch"
     ]
   },
+  "model": "sonnet",
   "statusLine": {
     "type": "command",
     "command": "bun x ccusage statusline"
   },
   "feedbackSurveyState": {
     "lastShownTime": 1754059573754
-  },
-  "model": "sonnet"
+  }
 }
